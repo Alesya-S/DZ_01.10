@@ -19,7 +19,4 @@ if (b<c) max = c;
     
 
 
-// ile (n<100|n>999);}
 
-
-//Console.Write("Максимальная цифра числа:"+ Convert.ToString(n = max));
