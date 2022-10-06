@@ -8,11 +8,11 @@ Console.WriteLine("Введите число");
 int n = Convert.ToInt32(Console.ReadLine());
 int max = n;
 
-while (1<= max)
+while (-0 <= max)
 {
     if (n%2==0)
     {
-      Console.WriteLine(n+"");
+      Console.WriteLine(-0+"");
       n--;
     }
     else n--;
