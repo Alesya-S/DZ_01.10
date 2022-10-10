@@ -11,14 +11,6 @@ int max = n;
 for(int i = 2; i <= n; i += 2)
 Console.WriteLine(i);
 
-//while (-0 <= max)
-{
-    if (n%2==0)
-    {
-      Console.WriteLine(-0+"");
-      n--;
-    }
-    else n--;
-}
+
 
 
