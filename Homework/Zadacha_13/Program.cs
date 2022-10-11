@@ -18,12 +18,13 @@ int n = Convert.ToInt32(Console.ReadLine());
         n = n/10;
     Console.WriteLine("третья цифра числа" + Convert.ToString(n%10));
     }
-
     if (n>=100 || n<=1000)
     {
      Console.WriteLine("третья цифра числа" + Convert.ToString(n%10));
     }
 }
+
+
 
 
     
