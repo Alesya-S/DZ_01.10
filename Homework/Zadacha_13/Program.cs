@@ -7,19 +7,25 @@
 Console.WriteLine("Введите число");
 int n = Convert.ToInt32(Console.ReadLine());
 
-if (n>1000)
-{
-    n=n/10;
-     {
-      Console.WriteLine("третья цифра числа" + Convert.ToString(n%10));
-     } 
-}
-if (n<100)
-{
+ if (n<=100)
+{  
     Console.WriteLine("Третья цифра отсутствует");
 }
-else
+  else 
 {
-Console.WriteLine("третья цифра числа" + Convert.ToString(n%10));
+    if (n>=1000)
+    {
+        n = n/10;
+    Console.WriteLine("третья цифра числа" + Convert.ToString(n%10));
+    }
+
+    if (n>=100 || n<=1000)
+    {
+     Console.WriteLine("третья цифра числа" + Convert.ToString(n%10));
+    }
 }
+
+
+    
+
 
