@@ -5,3 +5,18 @@
 23432 -> да */
 
 
+
+Console.WriteLine("введите число"); //ввели текст
+string number = Console.ReadLine(); //преобразовали в строку
+char[] arr = number.ToCharArray(); //заисали в масив
+Array.Reverse(arr); //перевернули массив
+string number2 = new String(arr); //новая строка
+ 
+if (number == number2) 
+{
+    Console.WriteLine("Палиндром");
+}
+else
+{
+    Console.WriteLine("Нифига не палиндром");
+}
