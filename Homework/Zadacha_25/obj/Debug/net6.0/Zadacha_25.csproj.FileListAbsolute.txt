@@ -1,0 +1,15 @@
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.AssemblyInfo.cs
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\bin\Debug\net6.0\Zadacha_25.exe
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\bin\Debug\net6.0\Zadacha_25.deps.json
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\bin\Debug\net6.0\Zadacha_25.runtimeconfig.json
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\bin\Debug\net6.0\Zadacha_25.dll
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\bin\Debug\net6.0\Zadacha_25.pdb
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.dll
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\refint\Zadacha_25.dll
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.pdb
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\Zadacha_25.genruntimeconfig.cache
+C:\Users\Alex\Desktop\DZ_1\Homework\Zadacha_25\obj\Debug\net6.0\ref\Zadacha_25.dll
