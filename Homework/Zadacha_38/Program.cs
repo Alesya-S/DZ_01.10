@@ -2,13 +2,13 @@
 Найдите разницу между максимальным и минимальным элементов массива.
  [3 7 22 2 78] -> 76 */
 
- int [] array = new int [6];
+ double [] array = new double [6];
 
 newArray (array);
 printArray(array);
 numFind(array);
 
-void newArray(int[] array){
+void newArray(double[] array){
     for (int i = 0; i<array.Length; i++)
     {
       array [i] = new Random().Next(-10, 10);
@@ -16,7 +16,7 @@ void newArray(int[] array){
     return;
 }
 
-void printArray(int[] array){
+void printArray(double[] array){
     for (int i = 0; i<array.Length; i++)
     {
         Console.Write(array[i]+" ");
@@ -24,9 +24,9 @@ void printArray(int[] array){
     Console.WriteLine();
 }
 
-void numFind(int[] array){
-    int min = array[0];
-    int max = array[0];
+void numFind(double[] array){
+    double min = array[0];
+    double max = array[0];
     {
     for(int i = 0; i <array.Length; i++)
        {
