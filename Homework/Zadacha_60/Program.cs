@@ -3,44 +3,29 @@
 каждого элемента. */
 
 
-
-int [,] array = new int [4,4];
+int[,,] array = new int[3, 3, 3];
 
 FillArray(array);
-Print(array);
-//SortArray(array);
-Print(array);
+PrintArray(array);
 
-/*void SortArray(int[,] arr)
-{
-    for (int i = 0; i < arr.GetLength(0); i++){         
-        for (int j = 0; j < arr.GetLength(1); j++){
-            for (int k = 0; k < arr.GetLength(1); k++){
-                if (arr[i, j] < arr[i, k]) {
-                    int temp = arr[i, j];
-                    arr[i, j] = arr[i, k];
-                    arr[i, k] = temp;
-                }
-            } 
-        }   
-    }
-}*/
-
-void FillArray(int [,] array){
+void FillArray(int[,,] array){
     for (int i = 0; i < array.GetLength(0); i++){
         for (int j = 0; j < array.GetLength(1); j++){
-            array [i,j] = new Random().Next(1,10);
+            for (int k = 0; k < array.GetLength(2); k++){
+                array[i, j, k] = new Random().Next(10, 100);
+            }
         }
     }
 }
 
-void Print(int [,] array){
+void PrintArray(int[,,] array){
     for (int i = 0; i < array.GetLength(0); i++){
         for (int j = 0; j < array.GetLength(1); j++){
-            Console.Write(array[i,j]+ " ");
+           for (int k = 0; k < array.GetLength(2); k++){
+            Console.Write(array[i, j, k] + "  (" + i + j + k + ") ");
+           }
         }
-        Console.WriteLine();
+        Console.WriteLine(" ");
     }
-    Console.WriteLine();
-} 
+}
 
